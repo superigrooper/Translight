@@ -1,0 +1,16 @@
+.promo {
+    &__hamburger_active {
+        span {
+			&:nth-child(1) {
+                transform: translateY(3px) rotate(-45deg);
+            }	
+			&:nth-child(2) {
+                display: none;
+            }
+			&:nth-child(3) {
+                transform: translateY(3px) rotate(45deg);
+            }
+            margin-bottom: -2px;
+        }
+    }
+}

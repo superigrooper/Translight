@@ -1,0 +1,16 @@
+  <a href="#" class="button">button</a>
+    <a href="#" class="button button_small">button</a>
+    <a href="#" class="button button_transparent">button</a>
+    <div class="buttons-arrow">
+        <a href="" class="buttons-arrow__item left">
+            <img src="img/icons/left.svg" alt="">
+        </a>
+        <a href="" class="buttons-arrow__item right">
+            <img src="img/icons/right.svg" alt="">
+        </a>
+    </div>
+    <h2 class="title">test title just</h2>
+    <div class="decor-line">
+        <span class="decor-line__item"></span>
+        <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
+    </div>

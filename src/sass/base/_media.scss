@@ -1,0 +1,116 @@
+@media (max-width: 1439px) {
+    .promo {
+        &__decor-item {
+            left: 230px;
+        }
+    }
+}
+
+@media (max-width: 1099px) {
+    .promo {
+        &__header {
+            justify-content: space-around;
+        }
+        &__logo {
+            position: relative;
+            left: 0;
+        }
+        &__decor-item {
+            left: 100px;
+            width: 370px;
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    .promo {
+        &__decor-item {
+            left: 0;
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        &__nav {
+            padding-top: 20px;
+            position: absolute;
+            z-index: 5;
+            left: -100%;
+            min-width: 50%;
+            background-color: rgba($color: #005bc1, $alpha: 0.5);
+            height: 100vh;
+            transition: 0.6s all;
+            ul {
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                height: 50%;
+                li {
+                    width: 90%;
+                    text-align: center;
+                    background-color: #FFFFFF;
+                    a {
+                        display: block;
+                        padding: 30px;
+                        color: $main-blue;
+                    }
+                    
+                }
+            }
+            &_active {
+                left: 0;
+                top: 0;
+            }
+        }
+        &__hamburger {
+            display: block;
+            position: absolute;
+            top: 30px;
+            right: 35px;
+            width: 30px;
+            height: 21px;
+            span {
+                display: block;
+                height: 2px;
+                width: 100%;
+                background-color: #fff;
+                margin-bottom: 2px;
+                transition: 0.5s all;
+            }
+            &_active {
+                span {
+                    &:nth-child(1) {
+                        transform: translateY(3px) rotate(-45deg);
+                    }
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                    &:nth-child(3) {
+                        transform: translateY(3px) rotate(45deg);
+                    }
+                    margin-bottom: -2px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .promo {
+        &__nav {
+            width: 80%;
+        }
+        &__info {
+            width: 100%;
+            padding: 0 15px 0 15px;
+        }
+        &__title {
+            font-size: 35px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+}

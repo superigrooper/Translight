@@ -1,0 +1,10 @@
+.promo {
+    &__header {
+        position: relative;
+        min-height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba($color: #005BC1, $alpha: .6);
+    }
+}

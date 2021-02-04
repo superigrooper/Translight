@@ -1,0 +1,9 @@
+.promo {
+    &__decor-item {
+        position: absolute;
+        left: 405px;
+        width: 444px;
+        height: 720px;
+        background-color: rgba($color: #005BC1, $alpha: .6);
+    }
+}

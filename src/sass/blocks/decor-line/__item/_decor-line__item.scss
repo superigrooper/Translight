@@ -1,0 +1,8 @@
+.decor-line {
+    &__item {
+        display: block;
+        height: 3px;
+        background-color: $main-blue;
+        width: 100%;
+    }
+}
