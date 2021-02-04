@@ -14,3 +14,26 @@
         <span class="decor-line__item"></span>
         <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
     </div>
+
+
+     <div class="carousel__inner">
+            <div><img src="img/project1.jpg" alt=""></div>
+            <div><img src="img/project2.jpg" alt=""></div>
+            <div><img src="img/project1.jpg" alt=""></div>
+            <div><img src="img/project2.jpg" alt=""></div>
+          </div>
+
+
+
+
+      <div class="carousel">
+
+        <div class="projects__header">
+
+          <div class="box-left">
+            <div class="decor-line decor-line_mt">
+              <span class="decor-line__item"></span>
+              <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
+            </div>
+            <h2 class="title title_mt">Наши проекты</h2>
+          </div>

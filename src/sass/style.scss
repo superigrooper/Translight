@@ -15,11 +15,15 @@
 @import "blocks/promo/__header/promo__header";
 @import "blocks/promo/__logo/promo__logo";
 @import "blocks/promo/__nav/promo__nav";
-@import "blocks/promo/_nav_active/promo__nav_active";
 @import "blocks/promo/__hamburger/promo__hamburger";
-@import "blocks/promo/_active/promo__hamburger_active";
 @import "blocks/promo/__decor-item/promo__decor-item";
 @import "blocks/promo/__info/promo__info";
 @import "blocks/promo/__title/promo__title";
 @import "blocks/promo/__descr/promo__descr";
+@import "blocks/projects/projects";
+@import "blocks/projects/__header/projects__header";
+@import "blocks/title/_mt/title_mt";
+@import "blocks/decor-line/_mt/decor-line_mt";
+@import "blocks/carousel/__inner/carousel__inner";
+@import "blocks/carousel/carousel";
 @import "base/media";

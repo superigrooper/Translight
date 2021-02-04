@@ -1,0 +1,14 @@
+.carousel {
+    &__inner {
+        padding-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        div {
+            width: 540px;
+            height: 400;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
