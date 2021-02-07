@@ -7,6 +7,10 @@
 }
 
 @media (max-width: 1099px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .promo {
         &__header {
             justify-content: space-around;
@@ -18,6 +22,22 @@
         &__decor-item {
             left: 100px;
             width: 370px;
+        }
+    }
+    .projects__header {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .carousel {
+        &__inner {
+            width: 85%;
+            margin: 0 auto;
+        }
+        .slick-slide {
+            width: 540px;
+            height: 400px;
+            margin-right: 0;
+            margin-left: 0;
         }
     }
 }
@@ -98,6 +118,10 @@
 }
 
 @media (max-width: 650px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .promo {
         &__nav {
             width: 80%;
@@ -112,5 +136,16 @@
         &__descr {
             font-size: 14px;
         }
+    }
+    .projects__header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .carousel {
+        &__inner {
+            width: 100%;
+            margin: 0 auto;
+        } 
     }
 }

@@ -1,22 +1,20 @@
 $(document).ready(function () {
     $('.carousel__inner').slick({
-        speed: 1200,
+        infinite: true,
         prevArrow: '<button class="buttons-arrow__item left"><img src="img/icons/left.svg" alt=""></button>',
         nextArrow: '<button class="buttons-arrow__item right"><img src="img/icons/right.svg" alt=""></button>',
-        settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3
-        },
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        variableWidth: true,
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 1109,
+                
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    variableWidth: false,
                     infinite: true,
-                    dots: false,
-                    arrows: false,
-                    autoplay: true
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             }
         ]

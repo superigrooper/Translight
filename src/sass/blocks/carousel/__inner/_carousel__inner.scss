@@ -1,14 +1,16 @@
 .carousel {
     &__inner {
         padding-top: 65px;
-        display: flex;
-        justify-content: space-between;
         div {
-            width: 540px;
-            height: 400;
             img {
                 width: 100%;
             }
         }
+    }
+    .slick-slide {
+        width: 540px;
+        height: 400px;
+        margin-right:15px;
+        margin-left:15px;
     }
 }
