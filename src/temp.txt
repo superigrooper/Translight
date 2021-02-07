@@ -37,3 +37,118 @@
             </div>
             <h2 class="title title_mt">Наши проекты</h2>
           </div>
+
+
+
+
+
+          .projects {
+        padding-top: 75px;
+        &__header {
+            .box-left {
+                min-width: 320px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+        &__descr {
+            width: 220px;
+            height: 100px;
+            position: absolute;
+                // top: 65%;
+                // left: 50%;
+            right: 20px;
+            bottom: 20px;
+            background-color: #ffffff;
+            opacity: 0.7;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .projects {
+        padding-top: 75px;
+        &__header {
+            .box-left {
+                min-width: 320px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+        &__descr {
+            width: 220px;
+            height: 100px;
+            position: absolute;
+                // top: 65%;
+                // left: 50%;
+            right: 20px;
+            bottom: 20px;
+            background-color: #ffffff;
+            opacity: 0.7;
+        }
+    }
+
+    .promo {
+        &__nav {
+            width: 80%;
+        }
+        &__info {
+            width: 100%;
+            padding: 0 15px 0 15px;
+        }
+        &__title {
+            font-size: 35px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    
+        .decor-line {
+            width: 80px;
+        }
+        .title {
+            font-size: 23px;
+        }
+
+    .carousel {
+        &__inner {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .slick-list {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .slick-slide {
+            width: 540px;
+        }
+    }
+}

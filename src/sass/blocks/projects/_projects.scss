@@ -1,6 +1,19 @@
 .projects {
     position: relative;
-    max-width: 1920px;
     min-height: 820px;
     padding-top: 150px;
+    &__descr {
+        width: 250px;
+        min-height: 110px;
+        padding: 20px 25px;
+        position: absolute;
+        right: 8%;
+        bottom: 8%;
+        background-color: #FFFFFF;
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin-top: 14px;
+        }
+    }
 }

@@ -6,7 +6,7 @@
     }
 }
 
-@media (max-width: 1099px) {
+@media (max-width: 1109px) {
     .container {
         padding-left: 20px;
         padding-right: 20px;
@@ -24,25 +24,46 @@
             width: 370px;
         }
     }
-    .projects__header {
-        width: 85%;
-        margin: 0 auto;
+    .projects {
+        &__header {
+            width: 85%;
+            margin: 0 auto;
+        }
     }
+    
     .carousel {
         &__inner {
             width: 85%;
             margin: 0 auto;
         }
-        .slick-slide {
-            width: 540px;
-            height: 400px;
-            margin-right: 0;
-            margin-left: 0;
+        .slick-list {
+            width: 65%;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .projects {
+        &__descr {
+            width: 220px;
+            height: 100px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 95%;
+        }
+        .slick-list {
+            width: 85%;
         }
     }
 }
 
 @media (max-width: 840px) {
+    .projects {
+        padding-top: 100px;
+    }
     .promo {
         &__decor-item {
             left: 0;
@@ -52,6 +73,13 @@
 }
 
 @media (max-width: 767px) {
+    .projects {
+        padding-top: 75px;
+        &__header {
+            width: 85%;
+            justify-content: center;
+        }
+    }
     .promo {
         &__nav {
             padding-top: 20px;
@@ -70,13 +98,12 @@
                 li {
                     width: 90%;
                     text-align: center;
-                    background-color: #FFFFFF;
+                    background-color: #ffffff;
                     a {
                         display: block;
                         padding: 30px;
                         color: $main-blue;
                     }
-                    
                 }
             }
             &_active {
@@ -115,13 +142,17 @@
             }
         }
     }
+    .carousel {
+        &__inner {
+            width: 95%;
+        }
+        .slick-list {
+            width: 85%;
+        }
+    }
 }
 
 @media (max-width: 650px) {
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
     .promo {
         &__nav {
             width: 80%;
@@ -137,15 +168,43 @@
             font-size: 14px;
         }
     }
-    .projects__header {
-        width: 100%;
-        margin: 0 auto;
+
+    .decor-line {
+        width: 80px;
+    }
+    .title {
+        font-size: 23px;
+        &_small {
+            font-size: 12px;
+        }
+    }
+
+    .projects {
+        padding-top: 75px;
+        &__header {
+            .box-left {
+                min-width: 320px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+        &__descr {
+            padding: 12.5px 12.5px;
+            width: 160px;
+            height: 75px;
+            p {
+                margin-top: 10px;
+                font-size: 10px;
+            }
+        }
     }
 
     .carousel {
         &__inner {
             width: 100%;
-            margin: 0 auto;
-        } 
+        }
+        .slick-list {
+            width: 100%;
+        }
     }
 }

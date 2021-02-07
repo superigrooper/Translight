@@ -9,12 +9,21 @@ $(document).ready(function () {
         responsive: [
             {
                 breakpoint: 1109,
-                
                 settings: {
                     variableWidth: false,
                     infinite: true,
                     slidesToShow: 1,
                     slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    variableWidth: false,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false
                 }
             }
         ]

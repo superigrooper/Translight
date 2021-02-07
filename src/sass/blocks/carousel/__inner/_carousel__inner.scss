@@ -2,14 +2,15 @@
     &__inner {
         padding-top: 65px;
         div {
+            
             img {
                 width: 100%;
             }
         }
     }
     .slick-slide {
+        position: relative;
         width: 540px;
-        height: 400px;
         margin-right:15px;
         margin-left:15px;
     }
