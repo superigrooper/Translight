@@ -1,0 +1,16 @@
+.catalog {
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        a {
+            display: block;
+            margin: 0 auto;
+            &:hover {
+                img {
+                    scale: 1.1;
+                    transition: .5s all;
+                }
+            }
+        }
+    }
+}

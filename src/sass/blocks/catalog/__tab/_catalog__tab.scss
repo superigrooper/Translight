@@ -1,0 +1,16 @@
+.catalog {
+    &__tab {
+        margin: 0 23px 0 23px;
+        span {
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $title-color;
+            font-family: 'Oswald';
+            font-size: 24px;
+            font-weight: 400;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+        }
+    }
+}

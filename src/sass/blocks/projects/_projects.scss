@@ -1,7 +1,10 @@
 .projects {
     position: relative;
-    min-height: 820px;
+    // min-height: 820px;
     padding-top: 150px;
+    a {
+        color: #000;
+    }
     &__descr {
         width: 250px;
         min-height: 110px;
@@ -10,6 +13,12 @@
         right: 8%;
         bottom: 8%;
         background-color: #FFFFFF;
+        opacity: .6;
+        transition: .2s all;
+        &:hover {
+            opacity: 1;
+            transition: .5s all;
+        }
         p {
             font-family: 'Open Sans', sans-serif;
             font-size: 14px;

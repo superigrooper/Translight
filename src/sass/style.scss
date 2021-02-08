@@ -1,5 +1,6 @@
 @import "base/main";
 @import "base/variables";
+@import "blocks/section-header/section-header";
 @import "base/fonts";
 @import "blocks/button/button";
 @import "blocks/button/_small/button_small";
@@ -7,6 +8,9 @@
 @import "blocks/buttons-arrow/buttons-arrow";
 @import "blocks/buttons-arrow/__item/buttons-arrow__item";
 @import "blocks/title/title";
+@import "blocks/title/_mt/title_mt";
+@import "blocks/title/_ml/title_ml";
+@import "blocks/title/_small/title_small";
 @import "blocks/decor-line/decor-line";
 @import "blocks/decor-line/__item/decor-line__item";
 @import "blocks/decor-line/_small/decor-line__item_small";
@@ -21,10 +25,16 @@
 @import "blocks/promo/__title/promo__title";
 @import "blocks/promo/__descr/promo__descr";
 @import "blocks/projects/projects";
-@import "blocks/projects/__header/projects__header";
-@import "blocks/title/_mt/title_mt";
-@import "blocks/title/_small/title_small";
 @import "blocks/decor-line/_mt/decor-line_mt";
 @import "blocks/carousel/__inner/carousel__inner";
 @import "blocks/carousel/carousel";
+@import "blocks/catalog/catalog";
+@import "blocks/catalog/__tabs/catalog__tabs";
+@import "blocks/catalog/__tab/catalog__tab";
+@import "blocks/catalog/_active/catalog__tab_active";
+@import "blocks/catalog/__items/catalog__items";
+@import "blocks/catalog/__item/catalog__item";
+@import "blocks/catalog/__descr/catalog__descr";
+@import "blocks/catalog/__content/catalog__content";
+@import "blocks/catalog/_content-active/catalog__content_active";
 @import "base/media";
