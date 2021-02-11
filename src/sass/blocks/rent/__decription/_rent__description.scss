@@ -1,0 +1,22 @@
+.rent {
+    &__description {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+      h4 {
+          font-family: "Oswald";
+          font-weight: 400;
+          font-size: 16px;
+          text-transform: uppercase;
+      }
+      ul {
+          font-family: "Open Sans";
+          font-weight: 300;
+          font-size: 13px;
+          list-style-position: inside;
+          li {
+              margin-top: 22px;
+          }
+      }
+    }
+}

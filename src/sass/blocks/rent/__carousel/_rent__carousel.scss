@@ -1,0 +1,22 @@
+.rent {
+    &__carousel {
+        .left {
+            position: absolute;
+            top: -70px;
+            right: 52px;
+        }
+        .right {
+            position: absolute;
+            top: -70px;
+            right: 0;
+        }
+        .slick-slide {
+            display: flex;
+            img {
+                width: 255px;
+                height: 250px;
+            }
+        }
+      
+    }
+}

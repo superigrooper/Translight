@@ -1,0 +1,14 @@
+.rent {
+    &__item {
+        width: 665px;
+        border: 3px solid $main-blue;
+        padding: 30px 20px 30px 30px;
+        h3 {
+            font-family: "Oswald";
+            font-weight: 400;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-bottom: 35px;
+        }
+    }
+}

@@ -6,3 +6,13 @@ section catalog
             div catalog__item
                     img
                     div descr
+
+
+section rent
+    section-header
+    container
+    rent__content
+        rent__description
+        rent__item
+            h3
+            carousel

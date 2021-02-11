@@ -1,0 +1,16 @@
+.rent {
+    padding-top: 100px;
+    position: relative;
+    .test {
+        .test__inner {
+            div {
+                display: flex;
+            }
+            img {
+                width: 255px;
+                height: 250px;
+                display: block;
+            }
+        }
+    }
+}

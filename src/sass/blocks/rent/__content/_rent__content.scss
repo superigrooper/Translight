@@ -1,0 +1,9 @@
+.rent {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 394px;
+        padding-top: 40px;
+    }
+}
