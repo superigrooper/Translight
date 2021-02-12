@@ -1,0 +1,11 @@
+.articles {
+    &__previous-news {
+        width: 225px;
+        height: 242px;
+        img {
+            display: block;
+            width: 128px;
+            height: 115px;
+        }
+    }
+}

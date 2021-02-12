@@ -1,0 +1,17 @@
+.articles {
+    &__data {
+        width: 255px;
+        p {
+            margin: 42px 0 21px 0;
+            font-family: "Open Sans";
+            font-weight: 300;
+            font-size: 14px;
+        }
+        a {
+            color: #000;
+            font-family: "Open Sans";
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+}

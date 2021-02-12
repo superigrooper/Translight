@@ -1,0 +1,13 @@
+.articles {
+    &__latest-news {
+        width: 540px;
+        height: 242px;
+        display: flex;
+        justify-content: space-between;
+        img {
+            display: block;
+            width: 255px;
+            height: 242px;
+        }
+    }
+}

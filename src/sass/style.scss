@@ -1,6 +1,7 @@
 @import "base/main";
 @import "base/variables";
 @import "blocks/section-header/section-header";
+@import "blocks/section-header/_mb/section-header_mb";
 @import "base/fonts";
 @import "blocks/button/button";
 @import "blocks/button/_small/button_small";
@@ -43,4 +44,10 @@
 @import "blocks/rent/__item/rent__item";
 @import "blocks/rent/__decription/rent__description";
 @import "blocks/rent/__carousel/rent__carousel";
+@import "blocks/news/news";
+@import "blocks/articles/articles";
+@import "blocks/articles/__latest-news/articles__latest-news";
+@import "blocks/articles/__previous-news/articles__previous-news";
+@import "blocks/articles/__header/articles__header";
+@import "blocks/articles/__data/articles__data";
 @import "base/media";
