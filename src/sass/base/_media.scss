@@ -1,16 +1,4 @@
-@media (max-width: 1439px) {
-    .promo {
-        &__decor-item {
-            left: 230px;
-        }
-    }
-}
-
 @media (max-width: 1109px) {
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .promo {
         &__header {
             justify-content: space-around;
@@ -18,10 +6,6 @@
         &__logo {
             position: relative;
             left: 0;
-        }
-        &__decor-item {
-            left: 100px;
-            width: 370px;
         }
     }
         .section-header {
@@ -39,9 +23,6 @@
         }
     }
     .catalog {
-        // &__items {
-        //     justify-content: space-evenly;
-        // }
         &__item {
             width: 300px;
             height: 250px;
@@ -88,6 +69,14 @@
 }
 
 @media (max-width: 991px) {
+    .promo {
+        &__decor-item {
+            width: 50%;
+        }
+        .content {
+            padding-left: 95px;
+        }
+    }
     .projects {
         &__descr {
             width: 220px;
@@ -152,20 +141,7 @@
     }
 }
 
-@media (max-width: 840px) {
-    .projects {
-        padding-top: 100px;
-    }
-    .promo {
-        &__decor-item {
-            left: 0;
-            width: 50%;
-        }
-    }
-}
-
 @media (max-width: 767px) {
-  
     .promo {
         &__nav {
             padding-top: 20px;
@@ -227,6 +203,9 @@
                 }
             }
         }
+        .content {
+            padding-left: 15px;
+        }
     }
     .projects {
         padding-top: 75px;
@@ -279,10 +258,10 @@
         &__nav {
             width: 80%;
         }
-        &__info {
-            width: 100%;
-            padding: 0 15px 0 15px;
-        }
+        // &__info {
+        //     width: 100%;
+        //     padding: 0 15px 0 15px;
+        // }
         &__title {
             font-size: 35px;
         }

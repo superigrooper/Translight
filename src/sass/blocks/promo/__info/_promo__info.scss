@@ -2,10 +2,15 @@
     &__info {
         position: relative;
         z-index: 1;
-        width: 635px;
-        margin: 0 auto;
-        margin-top: 202px;
+        // width: 635px;
+        // margin: 0 auto;
+        // margin-top: 202px;
         display: flex;
         flex-direction: column;
+    }
+    .content {
+        position: absolute;
+        top: 202px;
+        padding-left: 190px;
     }
 }
