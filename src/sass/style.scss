@@ -1,5 +1,6 @@
 @import "base/main";
 @import "base/variables";
+@import "libs/slick.scss";
 @import "blocks/section-header/section-header";
 @import "blocks/section-header/_mb/section-header_mb";
 @import "base/fonts";
@@ -50,4 +51,5 @@
 @import "blocks/articles/__previous-news/articles__previous-news";
 @import "blocks/articles/__header/articles__header";
 @import "blocks/articles/__data/articles__data";
+@import "blocks/articles/__other-block/articles__other-block";
 @import "base/media";

@@ -58,6 +58,33 @@
             font-size: 15px;
         }
     }
+    .articles {
+        &__other-block {
+            width: 450px;
+        }
+        margin-top: 50px;
+        &__latest-news {
+            width: 500px;
+            height: 220px;
+            img {
+                width: 220px;
+                height: 220px;
+            }
+        }
+        &__data {
+            p {
+                margin: 20px 0;
+            }
+        }
+        &__previous-news {
+            width: 220px;
+            height: 220px;
+            img {
+                width: 115px;
+                height: 100px;
+            }
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -95,6 +122,32 @@
         }
         &__info {
             margin-bottom: 30px;
+        }
+    }
+    .articles {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__other-block {
+            margin-top: 50px;
+            width: 540px;
+        }
+        &__latest-news {
+            width: 540px;
+            height: 242px;
+            img {
+                width: 255px;
+                height: 242px;
+            }
+        }
+        &__data {
+            p {
+                margin: 20px 0;
+            }
+        }
+        .button {
+            position: relative;
+            top: 50px;
         }
     }
 }
@@ -306,6 +359,34 @@
                     margin-top: 10px;
                 }
             }
+        }
+    }
+    .articles {
+        &__other-block {
+            margin-top: 50px;
+            width: 410px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__latest-news {
+            width: 424px;
+            height: auto;
+            justify-content: space-evenly;
+            img {
+                width: 160px;
+                height: 160px;
+            }
+        }
+        &__data {
+            width: 200px;
+            p {
+                margin: 5px 0;
+                font-size: 11px;
+            }
+        }
+        .button {
+            position: relative;
+            top: 50px;
         }
     }
 }
