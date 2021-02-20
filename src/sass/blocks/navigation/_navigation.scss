@@ -1,0 +1,18 @@
+.navigation {
+    min-width: 453px;
+    font-family: open-sans, sans-serif;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__link {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

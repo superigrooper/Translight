@@ -1,3 +1,9 @@
 .section-header {
     display: flex;
+    justify-content: space-between;
+    position: relative;
+    .ctx {
+        display: flex;
+        justify-content: space-between;
+    }
 }

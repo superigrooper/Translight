@@ -58,20 +58,20 @@ $(document).ready(function () {
     });
 });
 
-    window.addEventListener('DOMContentLoaded', () => {
-        const nav = document.querySelector('.promo__nav');
-        const menuItem = document.querySelectorAll('.promo__nav li');
-        const hamburger = document.querySelector('.promo__hamburger');
+window.addEventListener('DOMContentLoaded', () => {
+    const navigation = document.querySelector('.navigation');
+    const navigationItem = document.querySelectorAll('.navigation__item');
+    const hamburger = document.querySelector('.hamburger');
 
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('promo__hamburger_active');
-            nav.classList.toggle('promo__nav_active');
-        });
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('hamburger_active');
+        navigation.classList.toggle('navigation_active');
+    });
 
-        menuItem.forEach(item => {
-            item.addEventListener('click', () => {
-                hamburger.classList.toggle('promo__hamburger_active');
-                nav.classList.toggle('promo__nav_active');
-            });
+    navigationItem.forEach(item => {
+        item.addEventListener('click', () => {
+            hamburger.classList.toggle('hamburger_active');
+            navigation.classList.toggle('navigation_active');
         });
     });
+});

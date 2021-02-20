@@ -4,4 +4,11 @@
     min-height: 800px;
     margin: 0 auto;
     background: url("../../../img/background.jpg") center (center/cover) no-repeat;
+    // mix hamburger
+    &__hamburger {
+        position: absolute;
+        top: 30px;
+        right: 35px;
+        display: none;
+    }
 }

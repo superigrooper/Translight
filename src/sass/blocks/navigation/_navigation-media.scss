@@ -1,0 +1,28 @@
+@media (max-width: 767px) {
+    .navigation {
+        padding-top: 20px;
+        position: absolute;
+        z-index: 5;
+        left: -100%;
+        min-width: 50%;
+        background-color: rgba($color: #005bc1, $alpha: 0.5);
+        height: 100vh;
+        transition: 0.6s all;
+        &__list {
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 50%;
+        }
+        &__item {
+            width: 90%;
+            text-align: center;
+            background-color: #ffffff;
+        }
+        &__link {
+            display: block;
+            padding: 30px;
+            color: $main-blue;
+        }
+    }
+}
