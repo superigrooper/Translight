@@ -1,0 +1,40 @@
+.footer {
+    background-color: $main-blue;
+    min-height: 255px;
+    color: #fff;
+    
+
+
+
+    &__contacts {
+        min-height: 88px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__tel {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Oswald';
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    &__adress, &__email {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 14px;
+        font-style: normal;
+    }
+
+    &__nav {
+        min-height: 90px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        .top-list, .bottom-list {
+            width: 50%;
+            display: flex;
+        }
+    }
+}
