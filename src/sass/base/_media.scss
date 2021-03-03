@@ -9,7 +9,7 @@
         }
     }
         .section-header {
-            width: 85%;
+            width: 90%;
             margin: 0 auto;
         }
     .carousel {
@@ -23,6 +23,9 @@
         }
     }
     .catalog {
+        &__items {
+            justify-content: space-evenly;
+        }
         &__item {
             width: 300px;
             height: 250px;
@@ -37,9 +40,17 @@
     .rent {
         &__info {
             font-size: 15px;
+            width: 290px;
+        }
+        &__item {
+            width: 650px;
+        }
+        &__content {
+            justify-content: space-evenly;
         }
     }
     .articles {
+        justify-content: space-evenly;
         &__other-block {
             width: 450px;
         }
@@ -143,65 +154,8 @@
 
 @media (max-width: 767px) {
     .promo {
-        &__nav {
-            padding-top: 20px;
-            position: absolute;
-            z-index: 5;
-            left: -100%;
-            min-width: 50%;
-            background-color: rgba($color: #005bc1, $alpha: 0.5);
-            height: 100vh;
-            transition: 0.6s all;
-            ul {
-                flex-direction: column;
-                justify-content: space-evenly;
-                align-items: center;
-                height: 50%;
-                li {
-                    width: 90%;
-                    text-align: center;
-                    background-color: #ffffff;
-                    a {
-                        display: block;
-                        padding: 30px;
-                        color: $main-blue;
-                    }
-                }
-            }
-            &_active {
-                left: 0;
-                top: 0;
-            }
-        }
         &__hamburger {
             display: block;
-            position: absolute;
-            top: 30px;
-            right: 35px;
-            width: 30px;
-            height: 21px;
-            span {
-                display: block;
-                height: 2px;
-                width: 100%;
-                background-color: #fff;
-                margin-bottom: 2px;
-                transition: 0.5s all;
-            }
-            &_active {
-                span {
-                    &:nth-child(1) {
-                        transform: translateY(3px) rotate(-45deg);
-                    }
-                    &:nth-child(2) {
-                        display: none;
-                    }
-                    &:nth-child(3) {
-                        transform: translateY(3px) rotate(45deg);
-                    }
-                    margin-bottom: -2px;
-                }
-            }
         }
         .content {
             padding-left: 15px;
@@ -209,10 +163,6 @@
     }
     .projects {
         padding-top: 75px;
-    }
-    .section-header {
-        width: 85%;
-        justify-content: flex-start;
     }
     .carousel {
         &__inner {
@@ -363,10 +313,6 @@
                 font-size: 11px;
             }
         }
-        .button {
-            position: relative;
-            top: 50px;
-        }
     }
 }
 
@@ -390,6 +336,33 @@
             .slick-slide {
                 flex-direction: column;
                 align-items: center;
+            }
+        }
+    }
+    .news {
+        .button {
+            position: absolute;
+            top: 990px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .articles {
+        &__other-block {
+            margin: 0 auto;
+            margin-top: 50px;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__latest-news {
+            width: 220px;
+            margin: 0 auto;
+            height: auto;
+            flex-direction: column;
+            img {
+                width: 200px;
+                height: 200px;
             }
         }
     }

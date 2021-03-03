@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Translight</title>
-  <link rel="stylesheet" href="css/slick.css">
+  <!-- <link rel="stylesheet" href="css/slick.css"> -->
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -15,21 +15,23 @@
       <a href="" class="promo__logo">
         <img src="img/logo.png" alt="logo">
       </a>
-      <nav class="promo__nav">
-        <ul>
-          <li><a href="">О компании</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Каталог</a></li>
-          <li><a href="">Сервис</a></li>
-          <li><a href="">Контакты</a></li>
-          <li><a href="">Контакты</a></li>
+
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="" class="navigation__link">О компании</a></li>
+          <li class="navigation__item"><a href="" class="navigation__link">Портфолио</a></li>
+          <li class="navigation__item"><a href="" class="navigation__link">Каталог</a></li>
+          <li class="navigation__item"><a href="" class="navigation__link">Сервис</a></li>
+          <li class="navigation__item"><a href="" class="navigation__link">Контакты</a></li>
         </ul>
       </nav>
-      <div class="promo__hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+
+      <div class="hamburger promo__hamburger">
+        <span class="hamburger__item"></span>
+        <span class="hamburger__item"></span>
+        <span class="hamburger__item"></span>
       </div>
+
     </header>
     <div class="container">
       <div class="promo__info">
@@ -51,11 +53,14 @@
     <div class="container">
       <div class="carousel">
         <div class="section-header">
-          <div class="decor-line decor-line_mt">
-            <span class="decor-line__item"></span>
-            <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
+          <div class="ctx">
+            <div class="decor-line decor-line_mt">
+              <span class="decor-line__item"></span>
+              <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
+            </div>
+            <h2 class="title title_mt title_ml">Наши проекты</h2>
           </div>
-          <h2 class="title title_mt title_ml">Наши проекты</h2>
+         
         </div>
         <div class="carousel__inner">
           <div>
@@ -102,11 +107,14 @@
   <section class="catalog">
     <div class="container">
       <div class="section-header">
-        <div class="decor-line decor-line_mt">
-          <span class="decor-line__item"></span>
-          <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
+        <div class="ctx">
+          <div class="decor-line decor-line_mt">
+            <span class="decor-line__item"></span>
+            <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
+          </div>
+          <h2 class="title title_mt title_ml">Каталог продукции</h2>
         </div>
-        <h2 class="title title_mt title_ml">Каталог продукции</h2>
+       
       </div>
       <ul class="catalog__tabs">
         <li class="catalog__tab catalog__tab_active"><span>Robe</span></li>
@@ -169,11 +177,14 @@
   <section class="rent">
     <div class="container">
       <div class="section-header">
-        <div class="decor-line decor-line_mt">
-          <span class="decor-line__item"></span>
-          <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
+        <div class="ctx">
+          <div class="decor-line decor-line_mt">
+            <span class="decor-line__item"></span>
+            <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
+          </div>
+          <h2 class="title title_mt title_ml">аренда оборудования</h2>
         </div>
-        <h2 class="title title_mt title_ml">аренда оборудования</h2>
+     
       </div>
       <div class="rent__content">
         <div class="rent__info">
@@ -227,11 +238,15 @@
   <section class="news">
     <div class="container">
       <div class="section-header section-header_mb">
-        <div class="decor-line decor-line_mt">
-          <span class="decor-line__item"></span>
-          <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
+        <div class="ctx">
+          <div class="decor-line decor-line_mt">
+            <span class="decor-line__item"></span>
+            <span class="decor-line__item decor-line__item_small decor-line__item_right"></span>
+          </div>
+          <h2 class="title title_mt title_ml">Новости</h2>
         </div>
-        <h2 class="title title_mt title_ml">Новости</h2>
+        
+        <a href="" class="button">все новости</a>
       </div>
 
 
@@ -280,11 +295,10 @@
 
         </div>
 
-        <a href="" class="button">все новости</a>
-
       </div>
 
     </div>
+    
   </section>
 
   <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>

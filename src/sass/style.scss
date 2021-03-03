@@ -17,11 +17,14 @@
 @import "blocks/decor-line/__item/decor-line__item";
 @import "blocks/decor-line/_small/decor-line__item_small";
 @import "blocks/decor-line/_right/decor-line__item_right";
+@import "blocks/navigation/navigation";
+@import "blocks/navigation/navigation-media";
+@import "blocks/navigation/navigation_active";
+@import "blocks/hamburger/hamburger";
+@import "blocks/hamburger/hamburger_active";
 @import "blocks/promo/promo";
 @import "blocks/promo/__header/promo__header";
 @import "blocks/promo/__logo/promo__logo";
-@import "blocks/promo/__nav/promo__nav";
-@import "blocks/promo/__hamburger/promo__hamburger";
 @import "blocks/promo/__decor-item/promo__decor-item";
 @import "blocks/promo/__info/promo__info";
 @import "blocks/promo/__title/promo__title";
