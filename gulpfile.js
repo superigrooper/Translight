@@ -39,7 +39,8 @@ gulp.task('fonts', () => {
 
 gulp.task('scripts', () => {
     return gulp.src('src/js/**/*.js')
-            .pipe(gulp.dest('dist/js')); 
+            .pipe(gulp.dest('dist/js'))
+            .pipe(browserSync.stream());
 })
 
 gulp.task('styles', () => {
@@ -60,7 +61,7 @@ gulp.task('styles', () => {
 
 gulp.task('watch', () => {
     gulp.watch('src/sass/**/*.+(scss|sass)', gulp.parallel('styles'));
-    gulp.watch('src/js/*.js').on('change', browserSync.reload);
+    gulp.watch('src/js/*.js').on('change', gulp.parallel('scripts'));
     gulp.watch('src/*.html').on('change', gulp.parallel('html'));
 });
 

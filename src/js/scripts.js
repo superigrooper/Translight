@@ -74,4 +74,6 @@ window.addEventListener('DOMContentLoaded', () => {
             navigation.classList.toggle('navigation_active');
         });
     });
+    const date = document.querySelector('.date');
+    date.innerHTML = new Date().getFullYear();
 });

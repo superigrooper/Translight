@@ -32,9 +32,42 @@
         min-height: 90px;
         border-top: 1px solid #fff;
         border-bottom: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         .top-list, .bottom-list {
             width: 50%;
             display: flex;
+            justify-content: space-between;
+            a {
+                display: block;
+                width: 33%;
+                color: #fff;
+                text-decoration: none;
+                font-family: 'Open Sans';
+                font-weight: 300;
+                font-size: 14px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    &__copyright {
+        min-height: 88px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 14px;
+        a {
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
