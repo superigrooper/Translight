@@ -1,14 +1,19 @@
 .promo {
     position: relative;
     max-width: 1920px;
-    min-height: 800px;
+    // min-height: 800px;
+    height: 100vh;
     margin: 0 auto;
     background: url("../../../img/background.jpg") center (center/cover) no-repeat;
+    background-attachment: fixed;
     // mix hamburger
     &__hamburger {
         position: absolute;
         top: 30px;
         right: 35px;
         display: none;
+    }
+    &_container {
+        height: 90%;
     }
 }
